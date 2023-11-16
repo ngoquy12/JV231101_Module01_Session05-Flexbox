@@ -1,0 +1,26 @@
+- Mặc định khi áp dụng thuộc tính display: flex thì các flex item (phần tử con) sẽ được hiển
+ thị theo chiều ngang
+- Thuộc tính display: flex chỉ được áp dụng khi chúng ta đặt nó bên trong flex-container (Khối cha gần nhất)
+- Để có thể thay đổi được chiều hiển thị của các flex-item thì chúng ta phải sử dụng thuộc tính:
+ + flex-direction:
+  - Chỉ được đặt bên trong flex-container
+  - row: Mặc định sẽ hiển thị theo chiều ngang
+  - row-reverse: Mặc định sẽ sắp theo chiều ngang nhưng các phần tử sẽ bị đảo ngược (1-2-3 => 3-2-1)
+  - column: Mặc định sẽ hiển thị theo chiều dọc
+  - column-reverse: Mặc định sẽ sắp theo chiều dọc nhưng các phần tử sẽ bị đảo ngược (1-2-3 => 3-2-1)
+ + justify-content: 
+  - Chỉ được đặt bên trong flex-container
+  - Sẽ luôn đi theo trục main-axis khi trục nằm ngang
+  - flex-start: Vị trí của các item sẽ được nằm bên trái (main start)
+  - flex-end: Vị trí của các item sẽ được nằm bên phải (main end)
+  - center: Vị trí của các item sẽ nằm giữa trục chính
+  - space-around: Các item sẽ được giãn đều ra hai bên, khoảng cách giữa 2 bên trái phải sẽ bé hơn
+  khoảng cách bên trong giữa các item
+  - space-between: Nó sẽ đẩy các item ra sát lề hai bên và khoảng bên trong giữa các item sẽ bằng nhau
+  - space-evenly: Giãn đều các phần tử đều nhau ra hai bên
+  + align-items: 
+    - Chỉ đặt bên trong flex-container
+    - Sẽ luôn đi theo trục cross-axis theo trục nằm ngang
+  + gap: Dùng để giãn cách các item trong mô hình flex
+  + flex-wrap: Giúp các item xuống dòng khi chiều dài màn hình không đủ
+  + flex : chỉ số; => Giúp item có thể chiếm hết phần diện tích còn lại của flex-container

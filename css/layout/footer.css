@@ -1,0 +1,13 @@
+.footer {
+  height: 56px;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-heading {
+  text-align: center;
+  /* line-height: 56px; */
+}

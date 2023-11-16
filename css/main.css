@@ -1,0 +1,19 @@
+@import url(./layout/header.css);
+@import url(./layout/navbar.css);
+@import url(./layout/content.css);
+@import url(./layout/footer.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
